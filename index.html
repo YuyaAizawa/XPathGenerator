@@ -1,0 +1,23 @@
+<html>
+<head>
+  <style>
+    .node {
+      display: inline-block;
+      margin: 3px;
+      border: 1px solid gray;
+    }
+
+    .highlight {
+      border-color: red;
+    }
+  </style>
+</head>
+<body>
+  <main></main>
+  <script src="js/elm.js"></script>
+  <script>
+    var app = Elm.Main.init({ node: document.querySelector('main') })
+    // you can use ports and stuff here
+  </script>
+</body>
+</html>
